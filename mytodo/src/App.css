@@ -1,0 +1,41 @@
+@font-face {
+  font-family:jua ;
+  src: url(./fonts/BMJUA_otf.otf);
+}
+
+.App {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background-color: azure;
+}
+
+h1 {
+  font-family: jua;
+  font-size: 40px;
+}
+
+
+.yet{
+  color: violet;
+}
+
+.done{
+  color: red;
+  
+}
+
+.test{
+  background-color: red;
+}
+
+.item:hover{
+  cursor: pointer;
+}
+
+.item{
+  font-family: jua;
+  font-size: 18px;
+}
