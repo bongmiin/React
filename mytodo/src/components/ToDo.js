@@ -1,9 +1,11 @@
 import { Component, useState } from 'react'; 
-import AddTodo from './AddTodo';
+ import AddTodo from './AddTodo';
+
+
 
 function ToDo(props) {
 
-
+  
   const clickHandler = (e) =>{
     let toggleList = [...props.toggleTodos];
     toggleList[Number(e.target.id)] = !props.toggleTodos[Number(e.target.id)];
@@ -39,8 +41,7 @@ function ToDo(props) {
           })
         }
       </div>
-      <input />
-      <button>Click Me</button>
+      <AddTodo {...props} />
     </div>
   );
       }
